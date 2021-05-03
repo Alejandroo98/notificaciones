@@ -1,0 +1,29 @@
+<!-- ====================== -->
+CREE UN ARCHIVO LLAMADO .prettierrc PARA GUARDAR MIS PREFERENCAS ALLI PERRO ESTO SOLO FUCIONARA EN ESTE PROYECTO
+<!-- ====================== -->
+
+
+npm init -y
+cls -> Limpiar consola
+
+<!-- ==========DEPENDENCIAS============ -->
+npm install express web-push dotenv morgan
+<!-- =================================== -->
+
+
+
+<!-- ==========Info dependencias============ -->
+dotenv -> Esto sirve para crear variables de entorno.
+morgan -> Sirve ara ver las peticioes que llegaran a nuestro servidor.
+<!-- ======================================= -->
+
+
+<!-- ================INFO============== -->
+API DEL NAVEGADOR LLAMADA "SERVIS WORKED" ES ESTO LO QUE NOS AYUDARA CON LAS NOTIFICACIONES
+<!-- ================================== -->
+
+<!-- ============WEB-PUSH========== -->
+Esto srive para generar nuetras llaves que necesitamos para que fucione -> npx web-push generate-valid-keys
+Esto te dara dos llaves, "Public key" y "Private key", creamos un archivo lladado ".env" les damos un nombre y las pegamos ahi.
+Aqui es en donde usamos el modulo "dotenv"
+<!-- ============================== -->
